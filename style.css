@@ -127,3 +127,37 @@
     padding-block: 4px;
     font-weight: 500;
 }
+#usp-list-section{
+    background-color: #151515;
+    padding-block:50px;
+}
+
+#usp-list{
+    background-image: radial-gradient(#81c0e7,#1394e4);
+    width:72%;
+    height:64vh;
+    margin-inline: auto;
+    border-radius: 20px;
+    padding:30px;
+    display: flex;
+}
+
+#usp-list ul{
+    padding-left: 30px;
+}
+
+.usp-list-item{
+    width:84%;
+    background-color: #f9d77e;
+    margin-bottom:18px;
+    padding:12px;
+    height:40px;
+    font-weight: 500;
+    list-style-type: none;
+    border-radius:30px;
+}
+
+#usp-list-img{
+    width:500px;
+    height:400px;
+}
