@@ -161,3 +161,37 @@
     width:500px;
     height:400px;
 }
+#founders-desk-section{
+    background-image: linear-gradient(to bottom right, #3d2944, #56455d);
+    padding:90px;
+}
+
+#founders-addressal{
+    font-weight: 500;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#founders-addressal-content{
+    margin-top:50px;
+}
+
+#founder-img{
+    border: 1px solid #d4b770;
+    border-radius: 500px;
+    height:150px;
+    margin-right: 40px;
+}
+
+#founders-desk{
+    background-color: #d4b770;
+    margin:20px 40px;
+    padding:40px;
+}
+
+#founders-desk p{
+  color:#56455d;
+  font-weight: 700;
+  margin-block: 20px;
+}
