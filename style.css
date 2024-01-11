@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+#main{
+    background-image: url("./images/BG.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Navbar */
+
+#navbar{ 
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    line-height: 40px;
+    color:white;
+}
+
+#login{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    padding-inline:15px;
+    border-radius: 8px;
+}
+
+/* Main section */
+
+#main-banner{
+    color:white;
+ }
+
+#by-line{
+    background-color:#a194cc;
+    width:70%;
+    border-radius: 28px;
+    margin-inline: auto;
+    padding:12px;
+    color:whitesmoke;
+}
+
+#by-line span{
+   font-weight: 900;
+}
+
+#main-content{
+    display: flex;
+    padding:50px;
+ }
+
+#main-content h1 span{
+    color:#f9d77e
+}
+
+#main-line{
+  
+    font-size: 36px;
+    padding-inline: 16px;
+}
+
+#main-video{
+    width:50%;
+    margin-inline:70px;
+    padding:0;
+}
+
+/* usp-list */
+
+
+
+#call-to-action{
+    color:white;
+    background-color: #3d2944;
+    padding:80px;
+    text-align: center;
+}
+
+#action-heading{
+    font-size: 36px;
+    margin-block: 24px;
+    background-color:gray;
+    padding-block: 16px;
+}
+
+#action-tags{
+    color:#f9d77e
+}
+
+/* Founders section */
+
+
+#winning-points-checklist ul{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.win-list-items{
+    background-color: #023b5e;
+    list-style-type: none;
+    height:80px;
+    width: 20%;
+    margin:35px;
+    border-radius: 100px;
+    padding:10px 30px;
+    font-weight:500;
+    color:white;
+}
+
+#solution ul{
+    margin-block: 30px;
+}
+
+.sol-list-items{
+    list-style-type: none;
+    border: 1px solid white;
+    margin-block:18px;
+    padding-block: 4px;
+    font-weight: 500;
+}
